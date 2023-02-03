@@ -1,0 +1,23 @@
+{
+  "name": "score-node-cli",
+  "version": "0.9.0",
+  "description": "As you know, building the configuration of a project is often time-consuming. In many cases, building a project quickly will lead to a lot of mistakes. In order to facilitate my life, this cli came into being",
+  "main": "./bin/cli",
+  "bin": {
+    "node-cli": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^10.0.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.3.3",
+    "ora": "^5.4.1",
+    "shelljs": "^0.8.5"
+  }
+}
