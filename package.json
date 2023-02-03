@@ -1,6 +1,6 @@
 {
   "name": "score-node-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "As you know, building the configuration of a project is often time-consuming. In many cases, building a project quickly will lead to a lot of mistakes. In order to facilitate my life, this cli came into being",
   "main": "./bin/cli",
   "bin": {

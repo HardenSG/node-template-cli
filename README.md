@@ -2,11 +2,11 @@
 
 ## score-node-cli
 
-> This is the scaffolding to quickly build the infrastructure configuration of a NODE project, building a NODE development environment with EXPRESS + TS. To learn more about the framework, see [github](https://github.com/HardenSG/node-express-ts-template.git)，Hope to get your star
+> This is the cli to quickly build the infrastructure configuration of a NODE project, building a NODE development environment with EXPRESS + TS. To learn more about the framework, see [github](https://github.com/HardenSG/node-express-ts-template.git)，Hope to get your star
 
 ## Usage
 
-> You need to install the scaffolding globally first
+> You need to install the cli globally first
 
 ```shell
     npm i -g score-node-cli
@@ -25,8 +25,9 @@ You can create a NODE template using ``cra`` in one of two ways
 
 ![defaultAction](static/craWayOne.png)
 Of course, you can choose the configuration items：
-      1. -b -> --based Basic configuration
-      2. -c -> --completed Completed configuration
+
+1. -b -> --based Basic configuration
+2. -c -> --completed Completed configuration
 
 ```shell
     node-cli cra 'projectName' -c
