@@ -20,8 +20,8 @@ const deleteFolder = (path) => {
     }
 }    
 
-module.exports = (fileName) => {
-    const repo = 'direct:https://gitee.com/yan-deqiang/node-express-ts-template.git'
+module.exports = (registoryURL, fileName) => {
+    const repo = `direct:${registoryURL}`
     const spinner = ora('downloading.....')
     spinner.start()
     downloadGitRepo(repo,fileName,{clone:true},(err) => {
@@ -33,7 +33,7 @@ module.exports = (fileName) => {
         }
         if(err){
             spinner.fail()
-            console.log( chalk.green('Generation completed!'))
+            console.log( chalk.green('Generation file!'))
             return
         }
         spinner.succeed()

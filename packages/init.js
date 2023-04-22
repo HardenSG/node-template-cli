@@ -15,6 +15,7 @@ program
 	)
     .option('-b,--based','create a base mode')
     .option('-c,--completed','create a completed mode')
+    .option('-f,--frontend','create a monorepo fronted project')
 	.action(require('./command/create-pro.js'))
 	.on('--help', () => {
 	    console.log(chalk.green(`

@@ -14,6 +14,7 @@ const askQuestions = () => {
       choices: [
         'based: Create a base version includes TS',
         'completed: Create a complete version include all',
+        'frontend: Create a monorepo frontend project about TS + Vue3' 
       ],
       filter: function (val) {
         return val.split(':')[0] ;
